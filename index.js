@@ -12,4 +12,4 @@ router.get('/auth/:strategy', bodyParser(), wrapPunyware(endpoint));
 
 app.use(router);
 
-app.listen(3030);~
+app.listen(3030);
